@@ -1,6 +1,8 @@
 const mongoose = require('mongoose')
 const Catergory = require('./Category')
 
+
+// This is the model
 const reviewsSchema = mongoose.Schema({
     body: {
         type : String,
